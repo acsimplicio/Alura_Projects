@@ -1,0 +1,82 @@
+legend {
+	font-weight: bold;
+}
+fieldset{
+	margin-bottom: 1em;
+}
+label[for] {
+	display: block;
+}
+input[type="text"], input[type="email"], textarea{
+	width: 100%;
+	border: 2px solid #bbb;
+	padding: .4em 1em;
+}
+fieldset > fieldset {
+	display: inline;
+}
+input[name="outro-assunto"] {
+	display: inline;
+	width: auto;
+}
+input:focus, textarea:focus{
+	background-color: #DBD3AB;
+}
+input:invalid, textarea:invalid {
+	box-shadow: 0 0 1px red;
+}
+button {
+	margin-left: auto;
+    margin-top: 1em;
+    display: block;
+    border: 0;
+    color: #FFF;
+    font-family: "Open Sans Condensed", sans-serif;
+    background-color: #3C1D3D;
+    padding: .5em 1em;
+    font-size: 1em;
+    border-radius: 5px;
+}
+button:hover, button:focus{
+	background-color: #8C1D3D;
+}
+input[value="Outro"] ~ input {
+	display: none;
+}
+input[value="Outro"]:checked ~ input {
+	display: inline;
+}
+label[for="nome"], label[for="email"]{
+	position: relative;
+}
+label[for="nome"]:after{
+	content: "";
+	background-image: url(../imagens/usuario.png);
+	background-size: 50% 50%;
+	background-position: center;
+	background-color: #bbb;
+	background-repeat: no-repeat;
+	width: 1.75em;
+	height: 1.75em;
+	position: absolute;
+	top: 100%;
+	left: 0;
+}
+label[for="email"]:after{
+	content: "";
+	background-image: url(../imagens/email.png);
+	background-color: #bbb;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50% 50%;
+	width: 1.75em;
+	height: 1.75em;
+	position: absolute;
+	top: 100%;
+	left: 0;
+}
+#nome, #email{
+	width: calc(100% - 1.75em);
+	position: relative;
+	left: 2.75em;
+}

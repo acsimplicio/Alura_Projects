@@ -1,0 +1,63 @@
+.header {
+    background: url('../img/destaque.jpeg') no-repeat;
+    background-size: cover;
+    padding-top: 32px;
+}
+.header, .menu-navegecao{
+  text-align: center;
+}
+.item{
+  display: inline-block;
+  margin: 0 2px 32px 0;
+}
+.botao-menu{
+  padding: 15px 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.botao-menu:hover{
+  background-color: #48A3A6;
+  transition: 0.5s;
+}
+.header .jumbotron{
+  text-transform: uppercase;
+  padding: 0 0 44px 0;
+}
+.info-evento{
+  text-transform: uppercase;
+  text-shadow: 4px 4px 10px black;
+}
+.info-evento h1{
+  font-size: 5em;
+  color: white;
+}
+.info-evento h2{
+  font-size: 4em;
+  color: #77FF40;
+  margin-top: 10px;
+}
+.inscrever{
+  margin-top: 20px;
+  padding: 30px;
+}
+.inscrever a{
+  display: inline-block;
+  background-color: #48A3A6;
+  padding: 20px 30px 20px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-size: 1.25em;
+  font-weight: bold;
+  box-shadow: 2px 2px 5px black;
+}
+@media(max-width: 800px) {
+  .header .jumbotron{
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,277 @@
+
+.botao-index:hover, .botao-index:focus{
+    box-shadow: 0 0 1em #FA9;
+    color: #FFF;
+    background-color: #C54974;
+}
+.titulo-principal {
+    background-image: linear-gradient(to bottom,  #851944 , #3C1D3D);
+}
+.palavra-home, .titulo-principal {
+    transform-style: preserve-3d;
+}
+.banner {
+    position: absolute;
+    font-family: "Open Sans Condensed";
+    font-size: 125%;
+    background-color: #3C1D3D;
+    color: #FFF;
+    padding: 1% 4%;
+    border: 5px solid #000;
+    text-decoration: none;
+    transform-origin: 0 0;
+    box-sizing: border-box;
+    top: 0;
+    right: 0;
+    animation-fill-mode: both;
+    transform: translate(6.5754em, -2.4749em) rotate(45deg);
+}
+.palavra-home {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    color:#D5447E;
+    position: absolute;
+    animation: aparece 2s;
+}
+
+@keyframes aparece {
+    from{
+        opacity: 0;
+        transform: scale(0.001);
+    }
+}
+
+.eficiencia {
+    position: absolute;
+    top:30%;
+    left:75%;
+    transform: rotate(-15deg) translateZ(1px);
+    font-size: 250%;
+}
+.boas-praticas {
+    position: absolute;
+    top:16%;
+    right: 65%;
+    transform: rotate(-10deg) translateZ(.15px);
+    font-size: 190%;
+    opacity: .8;
+}
+.codigo-limpo {
+    position: absolute;
+    left:70%;
+    top:65%;
+    transform: rotate(14deg) translateZ(.25px);
+    font-size: 125%;
+    opacity: .7;
+}
+.css3 {
+    position: absolute;
+    right: 88%;
+    top: 55%;
+    transform: rotate(8deg) translateZ(.5px);
+    font-size: 225%;
+    opacity: 0.9;
+}
+.html5 {
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    transform: rotate(20deg) translateZ(.05px);
+    font-size: 150%;
+    opacity: .6;
+}
+.javascript {
+    position: absolute;
+    top: 80%;
+    right: 64%;
+    transform: rotate(12deg) translateZ(.15px);
+    opacity: .3;
+}
+.acessibilidade {
+    position: absolute;
+    top: 15%;
+    left: 80%;
+    transform: rotate(-2deg) translateZ(.4px);
+    font-size: 90%;
+    opacity: .3;
+}
+.responsivo {
+    position: absolute;
+    top: 10%;
+    right: 84%;
+    transform: rotate(5deg) translateZ(.07px);
+    font-size: 140%;
+    opacity: .6;
+}
+.otimizacoes {
+    position: absolute;
+    top:43%;
+    right: 72%;
+    font-size: 110%;
+    transform: rotate(9deg) translateZ(.6px);
+    opacity: .4;
+}
+.agilidade {
+    position: absolute;
+    top:57%;
+    left:90%;
+    transform: rotate(12deg) translateZ(.2px);
+    opacity: .3;
+}
+.design {
+    position: absolute;
+    top:36%;
+    left: 60%;
+    font-size: 160%;
+    transform: translateZ(1px);
+    opacity: .8;
+}
+.foto-home {
+    height: 200px;
+    border-radius: 100px;
+    box-shadow: 0 0 1em #000;
+    animation: roda 2s;
+}
+
+@keyframes roda {
+    from {
+        height: 0px;
+        transform:  rotate(270deg);
+    }
+}
+
+
+.saudacao p {
+    font-size: 1.5em;
+    color: #99A;
+    line-height: 1;
+    margin: 4.5em;
+}
+
+.saudacao-inicio {
+    font-size: 3em;
+    color: #889;
+}
+.saudacao-ultima-linha {
+    text-align: right;
+    display: block;
+}
+.saudacao strong {
+    font-size: 2em;
+    color: #000;
+}
+.saudacao em {
+    font-size: 3.5em;
+    color: #851944;
+    display: inline-block;
+    transform: skew(-8deg) rotate(-5deg);
+    animation: flutuar 1s infinite;
+    position: relative;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes flutuar {
+
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
+    }
+
+}
+
+.botao-index {
+    font-size: 1.25em;
+    background-color: #851944;
+    color: #FFF;
+    padding: .5em;
+    border: .2em solid black;
+    width: 40ch;
+    margin: 2em auto;
+    display: block;
+    text-align: center;
+    transition: .5s;
+    text-decoration: none;
+}
+.secao-inicio {
+    padding: 2em;
+}
+.secao-inicio h2 {
+    font-size: 3em;
+    text-shadow: 2px 2px #000;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+    text-shadow: 5px 5px #000;
+}
+.trabalhos {
+    background-color: #3C1D3D;
+    border-top: 10px solid #000;
+    border-bottom: 10px solid #000;
+    background-image: linear-gradient(135deg,
+                        transparent,
+                        transparent 14px,
+                        rgba(0, 0, 0, 0.1) 14px,
+                        rgba(0, 0, 0, 0.1) 15px,
+                        transparent 15px,
+                        transparent);
+    background-size: 20px 20px;
+    background-attachment: fixed;
+}
+.trabalhos h2 {
+    color: #FFF;
+}
+.trabalhos ul {
+    display: flex;
+    border: 10px solid black;
+}
+.trabalhos li {
+   flex: 1;
+}
+.trabalhos img {
+    width: 100%;
+    display: block;
+}
+.blog {
+    background-color: #999;
+    color: #FFF;
+    border-bottom: 10px solid #851944;
+}
+.blog small {
+    position: relative;
+    top: -2em;
+}
+.blog li a {
+    color: #FCF;
+    display: block;
+    padding: .5em;
+}
+footer h2 {
+    font-size: 3em;
+    padding-bottom: .25em;
+}
+footer {
+    padding: 2em;
+    background-color: #000;
+    color: #FFF;
+}
+footer a {
+    color: #F99;
+}
+main {
+    width: 100%;
+    padding-bottom: 0;
+    float: none;
+}
+header {
+    position: relative;
+}
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+body {
+    perspective: 6px;
+    perspective-origin: 50% 160px;
+}
