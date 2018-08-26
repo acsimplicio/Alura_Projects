@@ -1,0 +1,67 @@
+.frase{
+  font-size: 20px;
+}
+.campo-digitacao{
+  font-size: 20px;
+  height: 130px;
+  border: 3px solid #000;
+}
+.tempo-acabado{
+  background-color: lightgray;
+}
+.icones{
+  vertical-align: middle;
+}
+.correto{
+  border: 3px solid green;
+}
+.errado{
+  border: 3px solid red;
+}
+.placar{
+  display: none;
+}
+body{
+  overflow: scroll;
+}
+#erro {
+  color: red;
+  display: none;
+}
+#spinner{
+  display: none;
+}
+#frase-id{
+  width: 40px;
+}
+#botao-sync{
+    float: right;
+}
+/*body {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+}
+h1 {
+  font-family: "Gugi", sans-serif;
+  font-size: 3.5em;
+  text-align: center;
+  margin-bottom: 2%;
+  padding: 35px 5px 15px 5px;
+  background-color: #2BD8D8;
+  color: white;
+  border-bottom: 5px solid #70FFFF;
+  box-shadow: 0px 10px 30px #24B1B1;
+}
+.frase {
+  margin: 60px 0px 20px 0px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.campo-digitacao {
+  width: 40%;
+  margin: 20px 0px 40px 0px;
+  border: 3px solid #000;
+}
+li {
+  margin-bottom: 5px;
+}
